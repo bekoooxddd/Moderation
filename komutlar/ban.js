@@ -36,7 +36,7 @@ module.exports.run = async (bot, message, args) => {
     reactions.on("end", () => sentEmbed.edit("İşlem iptal oldu!"));
     reactions.on("collect", async function(reaction) {
       if (reaction.emoji.name === "✅") {
-        let log = message.guild.channels.cache.find(`name`, "KANAL LOG ADI");  
+        let log = message.guild.channels.cache.find(`name`, "880527417565933578");  
         message.channel.send(`İşlem Onaylandı! ${u} Adlı Şahıs Sunucudan Banlandı!`);
         log.send(new Discord.MessageEmbed().setAuthor('Ban Atıldı').setTimestamp().setColor("GREEN").setFooter(message.guild.name, message.guild.iconURL()).setDescription(`**Banlanan Üye:** ${u} | ${u.id} \n**Banlayan Yetkili:** ${message.author} | ${message.author.id}`));
         message.guild.members.ban(u, 2);
