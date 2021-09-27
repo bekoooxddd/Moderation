@@ -5,7 +5,7 @@ exports.run = (client, message, args) => {
   const davet = new Discord.MessageEmbed()
   .setColor("RANDOM")
   .setTitle("Bana Oyver ")
-  .setDescription("[__**Botlist**__](https://top.gg/bot/791609110658547782/vote)")
+  .setDescription("[__**Botlist**__]()")
   .setFooter('Botumuza Oy Verdiğiniz İçin Şimdiden Teşekkür Ederim..')
   message.channel.send(davet)
 }
