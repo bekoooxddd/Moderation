@@ -36,7 +36,7 @@ client.on("message", message => {
 client.on("ready", () => {
   console.log(`Bütün komutlar başarıyla yüklendi!`);
   client.user.setStatus("idle");
-  client.user.setActivity('Thanos 🌙 Midnights (M!)');
+  client.user.setActivity('m!yardım');
 })
 
 
