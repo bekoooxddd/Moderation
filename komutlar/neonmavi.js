@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 exports.run = async (client, message, args) => {
   const yazi = args.slice(0).join('+'); 
 
-  if(!yazi) return message.channel.send(`**Lütfen yazı yazınız.** <a::mns_rainbowElmasGif:885501734296887346>`)
+  if(!yazi) return message.channel.send(`**Lütfen yazı yazınız.** <a:mns_RainbowelmasGif:885501734296887346>`)
   const linqo = `https://habbofont.net/font/neon_blue/${yazi}.gif`
   .replace(' ', '+')
 
