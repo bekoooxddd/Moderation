@@ -9,7 +9,7 @@ exports.run = (client, message) => {
     )
     .setDescription(
       `Toplamda Botta **${client.commands.size}** Adet Komut Bulunuyor!` +
-        "\n\n `m!botbilgi`= **Yazarak Botun İstatistiklerine Ulaşa Bilirsiniz.** \n `m!davet`= **Yazarak Botun Davet Linkini Alırsınız. \n `**Thanos ❤️ Midnights**"
+        "\n\n `m!botbilgi`= **Yazarak Botun İstatistiklerine Ulaşa Bilirsiniz.** \n `m!davet`= **Yazarak Botun Davet Linkini Alırsınız. \n `**Thanos ❤️ Twilight**"
     )
     .addField(
       `:boom:➤ Komutlar`,
@@ -27,13 +27,13 @@ exports.run = (client, message) => {
     .addField(
       ` :boom: Bilgilendirme`,
       `
-:white_small_square: | **M İ D N İ G T S Her Gün Güncelleniyor!**.
+:white_small_square: | **T W İ L İ G H T Her Gün Güncelleniyor!**.
 :white_small_square: | **Botu Ekleyerek Bize Destek Çıkmış Olursunuz.** `
     )
   
   .addField(
       `**:boom:➤ Bağlantılar  **`,
-      `>  » [Destek Sunucusu](https://discord.gg/9gyHJAjzt7) \n >  » [Botun Davet Linki](https://discord.com/oauth2/authorize?client_id=824577399218765875&scope=bot&permissions=0) \n > »[Developer instagram:**brkygalibaaq**](https://www.instagram.com/brkygalibaaq/) `
+      `>  » [Destek Sunucusu](https://discord.gg/9gyHJAjzt7) \n >  » [Botun Davet Linki](https://discord.com/oauth2/authorize?client_id=824576908729516042&scope=bot&permissions=0) \n > »[Developer instagram:_brkygalibaaq_](https://www.instagram.com/brkygalibaaq/) `
     )
     .setFooter(
       `
