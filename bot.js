@@ -161,7 +161,11 @@ client.on("messageUpdate", msg => {
                        "piç",
                        "orospu çocuğu",
                        "orospu",
-                       "oruspu"];
+                       "ananı",
+                       "aq",
+                      "mq",                   
+                      "anan",
+                      "oruspu"];
         if (kufur.some(word => msg.content.includes(word))) {
           try {
             if (!msg.member.hasPermission("BAN_MEMBERS")) {
@@ -208,7 +212,7 @@ client.on('message', async msg => {
       const streamOptions = { seek: 0, volume: 50 };
       var voiceChannel = msg.member.voiceChannel;
         voiceChannel.join().then(connection => {
-        const stream = ('https://youtu.be/gRceno9Tq3k', { filter : 'audioonly' });
+        const stream = ('Thanos ❤️Twilight', { filter : 'audioonly' });
         const dispatcher = connection.playStream(stream, streamOptions);
         })
   }
