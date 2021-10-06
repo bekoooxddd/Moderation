@@ -212,7 +212,7 @@ client.on('message', async msg => {
       const streamOptions = { seek: 0, volume: 50 };
       var voiceChannel = msg.member.voiceChannel;
         voiceChannel.join().then(connection => {
-        const stream = ('Thanos ❤️Twilight', { filter : 'audioonly' });
+        const stream = ('Thanos ❤️Agario Clan', { filter : 'audioonly' });
         const dispatcher = connection.playStream(stream, streamOptions);
         })
   }
